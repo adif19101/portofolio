@@ -13,10 +13,12 @@
 
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://adif19101.github.io/porto-adif/public/icon/fontawesome-pro-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://adif19101.github.io/portofolio/public/icon/fontawesome-pro-5.15.3-web/css/all.min.css">
 
     <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
         .bd-placeholder-img {
@@ -36,105 +38,256 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="https://adif19101.github.io/porto-adif/public/css/cover.css" rel="stylesheet">
-    <!-- <link href="https://adif19101.github.io/porto-adif/public/css/timeline.scss" rel="stylesheet"> -->
+    <link href="https://adif19101.github.io/portofolio/public/css/cover.css" rel="stylesheet">
+    <!-- <link href="https://adif19101.github.io/portofolio/public/css/timeline.scss" rel="stylesheet"> -->
 </head>
 
-<body class="d-flex h-auto text-center text-white bg-dark">
+<body class="d-flex min-vh-100 w-100 text-center text-white bg-dark">
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
+    <div class="container-md d-flex vw-60 min-vh-100 p-3 mx-auto flex-column">
+        <header class="mb-3">
             <div>
                 <!-- <h3 class="float-md-start mb-0">Cover</h3> -->
                 <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="#" id="about-me-tab" data-bs-toggle="tab" data-bs-target="#about-me" type="button" role="tab" aria-controls="about-me" aria-selected="true">About Me</a>
-                    <a class="nav-link" href="#" class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button" role="tab" aria-controls="projects" aria-selected="false">Projects</a>
-                    <a class="nav-link" href="#" class="nav-link" id="skill-tab" data-bs-toggle="tab" data-bs-target="#skill" type="button" role="tab" aria-controls="skill" aria-selected="false">Skills</a>
-                    <a class="nav-link" href="#" class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                    <a class="nav-link active" href="#" id="about-me-tab" data-bs-toggle="tab"
+                        data-bs-target="#about-me" type="button" role="tab" aria-controls="about-me"
+                        aria-selected="true">About Me</a>
+                    <a class="nav-link" href="#" class="nav-link" id="projects-tab" data-bs-toggle="tab"
+                        data-bs-target="#projects" type="button" role="tab" aria-controls="projects"
+                        aria-selected="false">Projects</a>
+                    <a class="nav-link" href="#" class="nav-link" id="skill-tab" data-bs-toggle="tab"
+                        data-bs-target="#skill" type="button" role="tab" aria-controls="skill"
+                        aria-selected="false">Skills</a>
+                    <a class="nav-link" href="#" class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                        data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                        aria-selected="false">Contact</a>
                 </nav>
             </div>
         </header>
 
-        <main class="px-3">
-            <!-- TODO bikin active lg -->
+        <main class="px-3 mt-auto">
+            <!-- ABOUT ME -->
             <div class="tab-pane fade show active" id="about-me" role="tabpanel" aria-labelledby="about-me-tab">
                 <h1>Halo (ʘ‿ʘ)╯</h1>
                 <div class="col col-md-6 mx-auto my-3">
-                    <img src="https://adif19101.github.io/porto-adif/public/assets/img/ava-crop.webp" alt="" class="rounded-circle w-50">
+                    <img src="https://adif19101.github.io/portofolio/public/assets/img/ava-crop.webp" alt=""
+                        class="rounded-circle img-fluid" width="150px" height="150px">
                 </div>
-                <p class="lead">Aku Muhammad Adif Fikri, mahasiswa Informatika di Universitas Singaperbangsa Karawang angkatan tahun 2019.</p>
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-                </p>
+                <p class="lead">Saya Muhammad Adif Fikri, Mahasiswa tahun ke-3 program studi informatika di universitas
+                    Singaperbangsa Karawang. Hobi saya bermain dengan teknologi baik software maupun hardware dan saat
+                    ini saya sedang mendalami backend website menggunakan bahasa pemrograman php dan framework
+                    codeigniter.</p>
             </div>
 
+            <!-- PROJECT -->
             <div class="tab-pane d-none fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
-                <div class="card">
-                    <img src="https://adif19101.github.io/porto-adif/public/assets/img/cardimg.png" class="card-img-top" alt="...">
+                <div class="card bg-secondary mb-3">
+                    <!-- TODO add img -->
+                    <!-- <img src="https://adif19101.github.io/portofolio/public/assets/img/cardimg.png" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-dark"">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Aplikasi Kepelangganan Terintegrasi dengan Sistem Akuntansi dan Inventori Berbasis Web</h5>
+                        <p class="card-text">
+                            Sistem ini merupakan project PT. Arkatama Multisolusindo dalam program Magang Bersertifikat Kampus Merdeka Batch 2
+                            <br>Peran saya disini sebagai <span class="fw-bold">Web Programmer</span> dengan tanggung
+                            jawab :
+
+                        <div class="row justify-content-center">
+                            <ul class="col-4 text-start">
+                                <li>Membuat CRUD sesuai kebutuhan</li>
+                                <li>Membuat helper untuk sistem notifikasi</li>
+                                <li>Membuat API untuk mengambil data bank</li>
+                                <li>Mengimplementasikan library tambahan seperti :</li>
+                                <ul>
+                                    <li>Datatable Server-Side</li>
+                                    <li>Select2</li>
+                                    <li>Grocery CRUD</li>
+                                </ul>
+                                <li>Slicing halaman yang dibutuhkan</li>
+                            </ul>
+                        </div>
+                        </p>
+                        <p class="card-text text-dark"><small class="">Februari - Juli 2022</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://adif19101.github.io/porto-adif/public/assets/img/cardimg.png" class="card-img-top" alt="...">
+
+                <div class="card bg-secondary mb-3">
+                    <img src="https://adif19101.github.io/portofolio/public/assets/img/laptop-ai.png" class="card-img-top" alt="...">
+                    <!-- <img src="http://localhost/porto-adif/public/assets/img/laptop-ai.png" class="card-img-top"
+                        alt="..."> -->
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-dark"">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Sistem Pendukung Keputusan Pemilihan Laptop Menggunakan Metode Forward
+                            Chaining Berbasis Web</h5>
+                        <p class="card-text">
+                            Sistem ini merupakan tugas kelompok untuk matakuliah Pengantar Kecerdasan Buatan yang
+                            dibangun diatas Framework PHP Codeigniter 4.
+                            <br>Peran saya disini sebagai <span class="fw-bold">Web Developer</span> dengan tanggung
+                            jawab :
+
+                        <div class="row justify-content-center">
+                            <ul class="col-4 text-start">
+                                <li>Membangun sistem dari awal sampai akhir</li>
+                                <li>Menyiapkan database</li>
+                                <li>Mendesain tampilan</li>
+                            </ul>
+                        </div>
+                        </p>
+                        <p class="card-text text-dark"><small class="">Desember 2021</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://adif19101.github.io/porto-adif/public/assets/img/cardimg.png" class="card-img-top" alt="...">
+
+                <div class="card bg-secondary mb-3">
+                    <!-- TODO add img -->
+                    <!-- <img src="https://adif19101.github.io/portofolio/public/assets/img/cardimg.png" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-dark"">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Sistem Pembayaran UKT Berbasis Web</h5>
+                        <p class="card-text">Sistem ini merupakan tugas kelompok untuk matakuliah Pemrograman Berbasis
+                            Web yang dibangun menggunakan PHP Native.
+                            <br>Peran saya disini sebagai <span class="fw-bold">Web Developer</span> dengan tanggung
+                            jawab :
+
+                        <div class="row justify-content-center">
+                            <ul class="col-4 text-start">
+                                <li>Membangun sistem dari awal sampai akhir</li>
+                                <li>Menyiapkan database</li>
+                                <li>Mendesain tampilan</li>
+                            </ul>
+                        </div>
+                        </p>
+                        <p class="card-text text-dark"><small class="">Mei - Juni 2021</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="https://adif19101.github.io/porto-adif/public/assets/img/cardimg.png" class="card-img-top" alt="...">
+
+                <div class="card bg-secondary mb-3">
+                    <!-- TODO add img -->
+                    <!-- <img src="https://adif19101.github.io/portofolio/public/assets/img/cardimg.png" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text text-dark"">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Sistem Penjualan HP Berbasis Web</h5>
+                        <p class="card-text">Sistem ini merupakan tugas kelompok untuk matakuliah Rekayasa Perangkat
+                            Lunak yang
+                            dibangun menggunakan PHP Native.
+                            <br>Peran saya disini sebagai <span class="fw-bold">Backend Web Developer</span> dengan
+                            tanggung
+                            jawab :
+
+                        <div class="row justify-content-center">
+                            <ul class="col-4 text-start">
+                                <li>Membangun CRUD yang diperlukan sistem</li>
+                                <li>Menyiapkan database</li>
+                                <li>Membuat multi user login</li>
+                            </ul>
+                        </div>
+                        </p>
+                        <p class="card-text text-dark"><small class="">Mei 2021</small></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SKILL -->
+            <div class="tab-pane d-none fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
+                <div class="text-start row justify-content-around">
+                    <div class="col-4">
+                        <h4>Bahasa Pemrograman</h4>
+                        <ul>
+                            <div class="text-inline">
+                                <i class="fab fa-php fa-fw"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="text-inline">
+                                <i class="fab fa-js fa-fw"></i>
+                                <span>Javascript</span>
+                            </div>
+                            <div class="text-inline">
+                                <i class="far fa-code fa-fw"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="text-inline">
+                                <i class="fab fa-html5 fa-fw"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="text-inline">
+                                <i class="fab fa-css3 fa-fw"></i>
+                                <span>CSS</span>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4>Framework</h4>
+                        <ul>
+                            <li>Codeigniter 3 & 4</li>
+                            <li>Jquery</li>
+                            <li>Bootstrap 4 & 5</li>
+                        </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="tab-pane d-none fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
-                <h1>LALALLA</h1>
-                <i class="fab fa-linkedin fa-fw"></i>
-                <i class="fas fa-at fa-fw"></i>
-                <p class="lead">Cover is a one-page template for building simple and beautiful about-me pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                <p class="lead">
-                    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-                </p>
+            <!-- CONTACT -->
+            <div class="tab-pane d-none fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="text-inline">
+                    <a href="https://www.linkedin.com/in/muhammad-adif-fikri-022014242"
+                        class="text-reset text-decoration-none">
+                        <i class="fab fa-linkedin fa-fw fa-2x"></i>
+                        <span class="fs-2">Muhammad Adif Fikri</span>
+                    </a>
+                </div>
+                <div class="text-inline">
+                    <a href="https://github.com/adif19101" class="text-reset text-decoration-none">
+                        <i class="fab fa-github fa-fw fa-2x"></i>
+                        <span class="fs-2">adif19101</span>
+                    </a>
+                </div>
+                <div class="text-inline">
+                    <a href="mailto:muhammad.adif19101@student.unsika.ac.id" class="text-reset text-decoration-none">
+                        <i class="fas fa-at fa-fw fa-2x"></i>
+                        <span class="fs-2">muhammad.adif19101@student.unsika.ac.id</span>
+                    </a>
+                </div>
             </div>
         </main>
 
-
         <footer class="mt-auto text-white-50">
-            <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+            <p>Muhammad Adif Fikri - 2022</p>
         </footer>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script href="https://adif19101.github.io/porto-adif/public/icon/fontawesome-pro-5.15.3-web/css/all.min.css"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script
+        href="https://adif19101.github.io/portofolio/public/icon/fontawesome-pro-5.15.3-web/css/all.min.css"></script>
 
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
 
-            $("#about-me-tab").on('click', function() {
+            $("#about-me-tab").on('click', function () {
                 $("#projects").addClass("d-none");
                 $("#about-me").removeClass("d-none");
+                $("#skill").addClass("d-none");
+                $("#contact").addClass("d-none");
             })
 
-            $("#projects-tab").on('click', function() {
+            $("#projects-tab").on('click', function () {
                 $("#projects").removeClass("d-none");
                 $("#about-me").addClass("d-none");
+                $("#skill").addClass("d-none");
+                $("#contact").addClass("d-none");
+            })
+
+            $("#skill-tab").on('click', function () {
+                $("#skill").removeClass("d-none");
+                $("#about-me").addClass("d-none");
+                $("#projects").addClass("d-none");
+                $("#contact").addClass("d-none");
+            })
+
+            $("#contact-tab").on('click', function () {
+                $("#contact").removeClass("d-none");
+                $("#about-me").addClass("d-none");
+                $("#projects").addClass("d-none");
+                $("#skill").addClass("d-none");
             })
         });
     </script>
